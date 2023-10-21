@@ -16,6 +16,7 @@
 
 if [[ $1 == "" ]]; then
     echo "Please provide a valid IP address as argument."
+    kill 9
   else
     IP_ADDRESS=$1 && echo "all-shutdown-script now running."
   fi
